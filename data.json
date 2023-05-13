@@ -1,0 +1,41 @@
+[
+  {
+   "descr": "Biến đổi biểu thức đại số",
+   "name": "Biểu thức đại số",
+   "img": "https://i.ytimg.com/vi/YElKiO9sVzE/hqdefault.jpg",
+   "file": "bdbtds.html",
+   "id": "1",
+   "count": "1"
+  },
+  {
+   "descr": "Tổng hợp Ta-lét, tính chất phân giác trong tam giác ",
+   "name": "ta-lét -- phân giác",
+   "img": "https://video.vietjack.com/upload2/quiz_source1/2022/07/s-1658893396.png",
+   "file": "tlpg.html",
+   "id": "2",
+   "count": "1"
+  },
+  {
+   "descr": "Tổng hợp về toán thưc tế ",
+   "name": "Thực tế hình - số 8",
+   "img": "https://o.rada.vn/data/image/2021/01/31/Giai-toan-8-bai-9-1.png",
+   "file": "file 5",
+   "id": "3",
+   "count": "1"
+  },
+  {
+   "descr": "Chuyên đề tam giác nhọn (Toán)",
+   "name": "Đồng dạng trong tam giác nhọn",
+   "img": "https://olm.vn/images/toanhoc/veduongcao.png",
+   "file": "tgn.html",
+   "id": "4"
+  },
+  {
+   "descr": "Các bài toán, định lý khai thác của tam giác vuông",
+   "name": "Tam giác vuông",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Tam_gi%C3%A1c_vu%C3%B4ng.svg",
+   "file": "file 5",
+   "id": "5",
+   "count": "1"
+  }
+ ]

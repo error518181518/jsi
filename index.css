@@ -1,0 +1,52 @@
+#product-list .product {
+  margin: 8px;
+  width: calc(25% - 16px);
+}
+.myCard {
+  margin-bottom: 20px;
+  border: 1px solid #eee;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.myDesc {
+  font-size: 13px;
+}
+
+.rule {
+  display: flex;
+  justify-content: space-evenly;
+  width: 95vw;
+  background-color: bisque;
+  padding: 1.5vw;
+}
+
+.mainc {
+  display: block;
+  float: right;
+  width: 95%;
+  text-align: start;
+  background-color: rgba(127, 255, 212, 0.575);
+}
+
+.font {
+  text-align: center;
+}
+
+body {
+  background-color: rgba(250, 232, 210, 0.596);
+}
+.btn btn-dark {
+  border-radius: 50vw;
+}
+
+a{
+  border: none;
+  color: black;
+  text-decoration: none;
+}
+
+.nav-mine {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 20vw;
+}

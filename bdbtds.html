@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand nav-mine" href="#">Bring math to you!</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="index.html">Home</a></li>
+                <li><a class="dropdown-item" href="bdbtds.html">most popular!</a></li>
+                <li><hr class="dropdown-divider"></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+            
+          <button
+            type="button"
+            class="btn btn-warning position-relative"
+            data-bs-toggle="modal"
+            data-bs-target="#modal-cart"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-bag-heart"
+              viewBox="0 0 16 16"
+            >
+            </svg>
+    </nav>
+
+    <!--flex for rules-->
+    <div class="rule">
+        <!--title-->
+        <div style="text-align: center;">
+           <h5 id="md">Mẹo để làm những bài này từ thấp đến nâng cao!</h5> <hr>
+        </div> <br>
+         <!--rules-->
+    <div class="accordion accordion-flush" style="width: 50vw;" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Quy tắc dấu!
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Một trong những thứ các bạn đều hay sai theo tôi nhận thấy, đó là <code>QUY TẮC DẤU</code><br>*Quy tắc dấu cộng trừ <br>
+                 *Quy tắc dấu ngoặc</div>
+                 <hr>
+                 <h5 style="background-color: beige; text-align: center;">Quy tắc</h5><br>
+
+                 <p style="margin: 1.2vw;">x+(y-z) = A trước cụm (y-z) là dấu "+" -> y,z trong ngoặc không đổi dấu! <br>
+                    x-(y-z) = A trước cụm (y-z) là dấu "-" -> y,z trong ngoặc đổi dấu! => x-(y-z) = x-y+z
+                </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Hằng đẳng thức
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"><code>Cơ bản: </code>Hằng đẳng thức tuyệt đối phải nhớ kĩ những hằng cơ bản <br> <code>Nâng cao:</code> Hằng đẳng thức mở rộng thường sẽ áp dụng, nên tìm hiểu thêm về tam giác pascal!</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Chú ý, phân tích giả thiết
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Một thứ luôn phải chú ý đầu tiền khi nhìn vào đề: <code>GIẢ THUYẾT</code> <br>
+                Giả thiết là giới hạn cũng như manh mối để làm và biến đổi, nên luôn phải chú ý!</div>
+          </div>
+        </div>
+      </div>
+<!--end of rules-->
+
+<!--more-->
+<div class="card" style="width: 18rem;">
+    <div class="card-header">
+      3 phần trong trang
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item"><a href="#md">#1 Mẹo (đầu trang).</a></li>
+      <li class="list-group-item">#2 Các dạng bài cơ bản.</li>
+      <li class="list-group-item">#3 Giả thiết thường thấy, các dạng nâng cao!</li>
+    </ul>
+  </div>
+<!--end of more-->
+    </div>
+
+    <!--end of rules-->
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.3/axios.min.js"
+      integrity="sha512-wS6VWtjvRcylhyoArkahZUkzZFeKB7ch/MHukprGSh1XIidNvHG1rxPhyFnL73M0FC1YXPIXLRDAoOyRJNni/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+
+    <script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
